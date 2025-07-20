@@ -1,0 +1,23 @@
+
+*{
+    font-family: "Inter", "Noto Sans Hebrew", sans-serif;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    width:100vh;
+    height: 100vh;
+    max-width:412px;
+    max-height: 915px;
+    padding:15px;
+    background-color: bisque;
+}
+.users-container{
+    display: flex;
+    flex-direction: column;
+    height:80vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
