@@ -1,0 +1,389 @@
+{
+  "chats": [
+    {
+      "id": 1,
+      "name": "Noa Shalev",
+      "avatar": "https://example.com/avatars/noa.png",
+      "messages": [
+        {
+          "id": "chat-01-msg-001",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Morning! Did you upload the photos to the shared drive?",
+          "timestamp": "2025-07-15T08:12:05+03:00"
+        },
+        {
+          "id": "chat-01-msg-002",
+          "name": "Noa Shalev",
+          "avatar": "https://example.com/avatars/noa.png",
+          "message": "Not yet, my Wi‑Fi died last night 🙃. I’ll do it in an hour.",
+          "timestamp": "2025-07-15T08:13:17+03:00"
+        },
+        {
+          "id": "chat-01-msg-003",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Cool, just ping me when it’s done.",
+          "timestamp": "2025-07-15T08:13:59+03:00"
+        },
+        {
+          "id": "chat-01-msg-004",
+          "name": "Noa Shalev",
+          "avatar": "https://example.com/avatars/noa.png",
+          "message": "Will do! Also, can you review slide 6 later?",
+          "timestamp": "2025-07-15T08:15:04+03:00"
+        },
+        {
+          "id": "chat-01-msg-005",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Yep, add me as a commenter.",
+          "timestamp": "2025-07-15T08:15:41+03:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Omar Haddad",
+      "avatar": "https://example.com/avatars/omar.png",
+      "messages": [
+        {
+          "id": "chat-02-msg-001",
+          "name": "Omar Haddad",
+          "avatar": "https://example.com/avatars/omar.png",
+          "message": "Game night Friday? I’ve got Catan and snacks.",
+          "timestamp": "2025-07-11T21:07:22+03:00"
+        },
+        {
+          "id": "chat-02-msg-002",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "I’m in! Need me to bring drinks?",
+          "timestamp": "2025-07-11T21:08:40+03:00"
+        },
+        {
+          "id": "chat-02-msg-003",
+          "name": "Omar Haddad",
+          "avatar": "https://example.com/avatars/omar.png",
+          "message": "Yes please. Anything fizzy 👍",
+          "timestamp": "2025-07-11T21:09:11+03:00"
+        },
+        {
+          "id": "chat-02-msg-004",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Done. See you at 19:30?",
+          "timestamp": "2025-07-11T21:10:02+03:00"
+        },
+        {
+          "id": "chat-02-msg-005",
+          "name": "Omar Haddad",
+          "avatar": "https://example.com/avatars/omar.png",
+          "message": "Yep, door’s open.",
+          "timestamp": "2025-07-11T21:10:37+03:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Liat Cohen",
+      "avatar": "https://example.com/avatars/liat.png",
+      "messages": [
+        {
+          "id": "chat-03-msg-001",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Did the package arrive at your place?",
+          "timestamp": "2025-06-30T16:02:05+03:00"
+        },
+        {
+          "id": "chat-03-msg-002",
+          "name": "Liat Cohen",
+          "avatar": "https://example.com/avatars/liat.png",
+          "message": "Yep! Box is huge 😂 Want me to bring it tomorrow?",
+          "timestamp": "2025-06-30T16:03:29+03:00"
+        },
+        {
+          "id": "chat-03-msg-003",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Please! I’ll be in the office after 10:00.",
+          "timestamp": "2025-06-30T16:04:10+03:00"
+        },
+        {
+          "id": "chat-03-msg-004",
+          "name": "Liat Cohen",
+          "avatar": "https://example.com/avatars/liat.png",
+          "message": "Cool, I’ll drop it at your desk.",
+          "timestamp": "2025-06-30T16:04:46+03:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Yossi Peretz",
+      "avatar": "https://example.com/avatars/yossi.png",
+      "messages": [
+        {
+          "id": "chat-04-msg-001",
+          "name": "Yossi Peretz",
+          "avatar": "https://example.com/avatars/yossi.png",
+          "message": "Server’s down again… did you push something?",
+          "timestamp": "2025-07-08T13:55:14+03:00"
+        },
+        {
+          "id": "chat-04-msg-002",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Nope. Checking logs now.",
+          "timestamp": "2025-07-08T13:56:02+03:00"
+        },
+        {
+          "id": "chat-04-msg-003",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Looks like DB connection pool maxed out. Restarting.",
+          "timestamp": "2025-07-08T13:58:31+03:00"
+        },
+        {
+          "id": "chat-04-msg-004",
+          "name": "Yossi Peretz",
+          "avatar": "https://example.com/avatars/yossi.png",
+          "message": "Got it. Ping me when it’s stable.",
+          "timestamp": "2025-07-08T13:59:07+03:00"
+        },
+        {
+          "id": "chat-04-msg-005",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Back up. Monitoring for spikes.",
+          "timestamp": "2025-07-08T14:02:44+03:00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Maya Ron",
+      "avatar": "https://example.com/avatars/maya.png",
+      "messages": [
+        {
+          "id": "chat-05-msg-001",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Can you babysit Leo Saturday night?",
+          "timestamp": "2025-07-02T18:21:55+03:00"
+        },
+        {
+          "id": "chat-05-msg-002",
+          "name": "Maya Ron",
+          "avatar": "https://example.com/avatars/maya.png",
+          "message": "Sure! What time should I come?",
+          "timestamp": "2025-07-02T18:23:04+03:00"
+        },
+        {
+          "id": "chat-05-msg-003",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Around 19:00. Pizza’s in the freezer 😄",
+          "timestamp": "2025-07-02T18:23:49+03:00"
+        },
+        {
+          "id": "chat-05-msg-004",
+          "name": "Maya Ron",
+          "avatar": "https://example.com/avatars/maya.png",
+          "message": "Perfect. See you then!",
+          "timestamp": "2025-07-02T18:24:31+03:00"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Karim Nasser",
+      "avatar": "https://example.com/avatars/karim.png",
+      "messages": [
+        {
+          "id": "chat-06-msg-001",
+          "name": "Karim Nasser",
+          "avatar": "https://example.com/avatars/karim.png",
+          "message": "Yo, did you watch the finale yet?",
+          "timestamp": "2025-07-19T22:14:03+03:00"
+        },
+        {
+          "id": "chat-06-msg-002",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Not yet, no spoilers!",
+          "timestamp": "2025-07-19T22:14:37+03:00"
+        },
+        {
+          "id": "chat-06-msg-003",
+          "name": "Karim Nasser",
+          "avatar": "https://example.com/avatars/karim.png",
+          "message": "Okay okay, message me when you’re done.",
+          "timestamp": "2025-07-19T22:15:22+03:00"
+        },
+        {
+          "id": "chat-06-msg-004",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Will binge tomorrow afternoon.",
+          "timestamp": "2025-07-19T22:16:05+03:00"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Yael Goren",
+      "avatar": "https://example.com/avatars/yael.png",
+      "messages": [
+        {
+          "id": "chat-07-msg-001",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Reminder: dentist 09:00 tomorrow. Can you cover standup?",
+          "timestamp": "2025-07-22T17:48:11+03:00"
+        },
+        {
+          "id": "chat-07-msg-002",
+          "name": "Yael Goren",
+          "avatar": "https://example.com/avatars/yael.png",
+          "message": "Sure. Anything specific to update?",
+          "timestamp": "2025-07-22T17:49:03+03:00"
+        },
+        {
+          "id": "chat-07-msg-003",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Just mention the API refactor PR is ready for review.",
+          "timestamp": "2025-07-22T17:49:37+03:00"
+        },
+        {
+          "id": "chat-07-msg-004",
+          "name": "Yael Goren",
+          "avatar": "https://example.com/avatars/yael.png",
+          "message": "Got it. Good luck at the dentist!",
+          "timestamp": "2025-07-22T17:50:12+03:00"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Adam Blum",
+      "avatar": "https://example.com/avatars/adam.png",
+      "messages": [
+        {
+          "id": "chat-08-msg-001",
+          "name": "Adam Blum",
+          "avatar": "https://example.com/avatars/adam.png",
+          "message": "You still selling that bike?",
+          "timestamp": "2025-06-26T10:31:55+03:00"
+        },
+        {
+          "id": "chat-08-msg-002",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Yep. 800₪, barely used.",
+          "timestamp": "2025-06-26T10:32:41+03:00"
+        },
+        {
+          "id": "chat-08-msg-003",
+          "name": "Adam Blum",
+          "avatar": "https://example.com/avatars/adam.png",
+          "message": "Can I try it today evening?",
+          "timestamp": "2025-06-26T10:33:09+03:00"
+        },
+        {
+          "id": "chat-08-msg-004",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Sure, after 18:00 works.",
+          "timestamp": "2025-06-26T10:33:47+03:00"
+        },
+        {
+          "id": "chat-08-msg-005",
+          "name": "Adam Blum",
+          "avatar": "https://example.com/avatars/adam.png",
+          "message": "See you then!",
+          "timestamp": "2025-06-26T10:34:12+03:00"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Rina Katz",
+      "avatar": "https://example.com/avatars/rina.png",
+      "messages": [
+        {
+          "id": "chat-09-msg-001",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Flight’s at 06:10. Can you drive me to the airport?",
+          "timestamp": "2025-07-01T20:55:33+03:00"
+        },
+        {
+          "id": "chat-09-msg-002",
+          "name": "Rina Katz",
+          "avatar": "https://example.com/avatars/rina.png",
+          "message": "That’s early 😴 but yeah, pick-up 03:45?",
+          "timestamp": "2025-07-01T20:56:28+03:00"
+        },
+        {
+          "id": "chat-09-msg-003",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Perfect. Coffee on me after.",
+          "timestamp": "2025-07-01T20:57:05+03:00"
+        },
+        {
+          "id": "chat-09-msg-004",
+          "name": "Rina Katz",
+          "avatar": "https://example.com/avatars/rina.png",
+          "message": "Deal. Don’t oversleep!",
+          "timestamp": "2025-07-01T20:57:44+03:00"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Eitan Weiss",
+      "avatar": "https://example.com/avatars/eitan.png",
+      "messages": [
+        {
+          "id": "chat-10-msg-001",
+          "name": "Eitan Weiss",
+          "avatar": "https://example.com/avatars/eitan.png",
+          "message": "Your turn in the code review chain.",
+          "timestamp": "2025-07-20T11:14:55+03:00"
+        },
+        {
+          "id": "chat-10-msg-002",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "On it. Anything specific to focus on?",
+          "timestamp": "2025-07-20T11:15:37+03:00"
+        },
+        {
+          "id": "chat-10-msg-003",
+          "name": "Eitan Weiss",
+          "avatar": "https://example.com/avatars/eitan.png",
+          "message": "Mainly the new auth middleware.",
+          "timestamp": "2025-07-20T11:16:09+03:00"
+        },
+        {
+          "id": "chat-10-msg-004",
+          "name": "me",
+          "avatar": "https://example.com/avatars/me.png",
+          "message": "Cool, will finish before lunch.",
+          "timestamp": "2025-07-20T11:16:52+03:00"
+        },
+        {
+          "id": "chat-10-msg-005",
+          "name": "Eitan Weiss",
+          "avatar": "https://example.com/avatars/eitan.png",
+          "message": "Thanks!",
+          "timestamp": "2025-07-20T11:17:20+03:00"
+        }
+      ]
+    }
+  ]
+}

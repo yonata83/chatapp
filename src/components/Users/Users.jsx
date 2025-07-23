@@ -11,7 +11,7 @@ export default function Users() {
             <p className="last-message"> User last message</p>
         </div>
         <div className="info">
-            <p className="date"> 21/7/2025</p>
+            <p className="date"> 21/7/25</p>
             <p className="unread">2 </p>
         </div>
     </div>

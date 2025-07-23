@@ -1,8 +1,22 @@
 
+:root {
+--alice-blue: #edf2fbff;
+--lavender-web: #e2eafcff;
+--lavender-web-2: #d7e3fcff;
+--periwinkle: #ccdbfdff;
+--periwinkle-2: #c1d3feff;
+--periwinkle-3: #b6ccfeff;
+--jordy-blue: #abc4ffff;
+}
 *{
     font-family: "Inter", "Noto Sans Hebrew", sans-serif;
 }
-
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
 .App{
     display: flex;
     flex-direction: column;
@@ -10,8 +24,7 @@
     height: 100vh;
     max-width:412px;
     max-height: 915px;
-    padding:15px;
-    background-color: bisque;
+    background-color: var(--cornsilk);
 }
 .users-container{
     display: flex;
