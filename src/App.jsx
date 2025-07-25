@@ -1,15 +1,70 @@
 import "./App.css";
 import Header from "./components/Header/Header";
 import Users from "./components/Users/Users";
+import { useState } from "react";
+import users from "./data/users.json";
+import Footer from "./components/Footer/Footer";
+
+const usersArray = users.chats;
+
+function formatTimestamp(isoTs) {
+  const ts = new Date(isoTs);
+  const now = new Date();
+  
+  const today  = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  
+  const then   = new Date(ts.getFullYear(), ts.getMonth(), ts.getDate());
+  
+  const dayDiff = Math.round((today - then) / (1000 * 60 * 60 * 24));
+  
+  if (dayDiff === 0) {
+    
+    return ts.toLocaleTimeString([], {
+      hour:   '2-digit',
+      minute: '2-digit'
+    });
+  } 
+  if (dayDiff === 1) {
+    
+    return 'Yesterday';
+  }
+  
+  const dd = String(ts.getDate()).padStart(2, '0');
+  const mm = String(ts.getMonth() + 1).padStart(2, '0');
+  const yy = String(ts.getFullYear()).slice(-2);
+  return `${dd}/${mm}/${yy}`;
+}
+
 
 function App() {
+  const [user, setUser] = useState([
+    { id: 1, name: "John Doe", lastMessage: "User last message", date: "21/7/25", avatar: "imgUrl"}
+  ])
+
+
+
   return (
     <div className="App">
-      <Header />
+      <header>
+        <Header />
+      </header>
+      
       <div className="users-container">
-        <Users />
-        <Users />
+        {usersArray.map((user) => ( 
+          console.log(user.messages[1]),
+          <Users
+            key={user.id}
+            name={user.name}
+            lastMessage={user.messages[user.messages.length - 1].message.slice(0, 15) + "..." || ""}
+            date={formatTimestamp(user.messages[user.messages.length - 1].timestamp)}
+            avatar={user.avatar}
+          />
+        ))}
+        
       </div>
+      <footer className="footer">
+      <Footer />
+      </footer>
     </div>
   );
 }

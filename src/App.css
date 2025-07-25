@@ -16,15 +16,24 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: white;
+    
 }
 .App{
     display: flex;
     flex-direction: column;
-    width:100vh;
+    width:100vw;
     height: 100vh;
     max-width:412px;
     max-height: 915px;
     background-color: var(--cornsilk);
+}
+header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .users-container{
     display: flex;
@@ -33,4 +42,16 @@ body{
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
+}
+footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lavender-web);
+    border-top: var(--jordy-blue) 1px solid;
+    position: absolute;
+    bottom: 0;
+    left:0;
 }

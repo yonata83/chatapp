@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Noa Shalev",
-      "avatar": "https://example.com/avatars/noa.png",
+      "avatar": "https://images.pexels.com/photos/16153368/pexels-photo-16153368.jpeg?_gl=1*1g1pqie*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzAkdDE3NTM0ODE1MzIkajYwJGwwJGgw",
       "messages": [
         {
           "id": "chat-01-msg-001",
@@ -15,7 +15,7 @@
         {
           "id": "chat-01-msg-002",
           "name": "Noa Shalev",
-          "avatar": "https://example.com/avatars/noa.png",
+          "avatar": "https://images.pexels.com/photos/16153368/pexels-photo-16153368.jpeg?_gl=1*1g1pqie*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzAkdDE3NTM0ODE1MzIkajYwJGwwJGgw",
           "message": "Not yet, my Wi‑Fi died last night 🙃. I’ll do it in an hour.",
           "timestamp": "2025-07-15T08:13:17+03:00"
         },
@@ -29,7 +29,7 @@
         {
           "id": "chat-01-msg-004",
           "name": "Noa Shalev",
-          "avatar": "https://example.com/avatars/noa.png",
+          "avatar": "https://images.pexels.com/photos/16153368/pexels-photo-16153368.jpeg?_gl=1*1g1pqie*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzAkdDE3NTM0ODE1MzIkajYwJGwwJGgw",
           "message": "Will do! Also, can you review slide 6 later?",
           "timestamp": "2025-07-15T08:15:04+03:00"
         },
@@ -38,19 +38,19 @@
           "name": "me",
           "avatar": "https://example.com/avatars/me.png",
           "message": "Yep, add me as a commenter.",
-          "timestamp": "2025-07-15T08:15:41+03:00"
+          "timestamp": "2025-07-26T08:15:41+03:00"
         }
       ]
     },
     {
       "id": 2,
       "name": "Omar Haddad",
-      "avatar": "https://example.com/avatars/omar.png",
+      "avatar": "https://images.pexels.com/photos/3015884/pexels-photo-3015884.jpeg?_gl=1*y1vent*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODI0MzgkajIyJGwwJGgw",
       "messages": [
         {
           "id": "chat-02-msg-001",
           "name": "Omar Haddad",
-          "avatar": "https://example.com/avatars/omar.png",
+          "avatar": "https://images.pexels.com/photos/3015884/pexels-photo-3015884.jpeg?_gl=1*y1vent*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODI0MzgkajIyJGwwJGgw",
           "message": "Game night Friday? I’ve got Catan and snacks.",
           "timestamp": "2025-07-11T21:07:22+03:00"
         },
@@ -64,7 +64,7 @@
         {
           "id": "chat-02-msg-003",
           "name": "Omar Haddad",
-          "avatar": "https://example.com/avatars/omar.png",
+          "avatar": "https://images.pexels.com/photos/3015884/pexels-photo-3015884.jpeg?_gl=1*y1vent*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODI0MzgkajIyJGwwJGgw",
           "message": "Yes please. Anything fizzy 👍",
           "timestamp": "2025-07-11T21:09:11+03:00"
         },
@@ -78,7 +78,7 @@
         {
           "id": "chat-02-msg-005",
           "name": "Omar Haddad",
-          "avatar": "https://example.com/avatars/omar.png",
+          "avatar": "https://images.pexels.com/photos/3015884/pexels-photo-3015884.jpeg?_gl=1*y1vent*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODI0MzgkajIyJGwwJGgw",
           "message": "Yep, door’s open.",
           "timestamp": "2025-07-11T21:10:37+03:00"
         }
@@ -87,7 +87,7 @@
     {
       "id": 3,
       "name": "Liat Cohen",
-      "avatar": "https://example.com/avatars/liat.png",
+      "avatar": "https://images.pexels.com/photos/6032221/pexels-photo-6032221.jpeg?_gl=1*f12xqs*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE2NzgkajYwJGwwJGgw",
       "messages": [
         {
           "id": "chat-03-msg-001",
@@ -99,7 +99,7 @@
         {
           "id": "chat-03-msg-002",
           "name": "Liat Cohen",
-          "avatar": "https://example.com/avatars/liat.png",
+          "avatar": "https://images.pexels.com/photos/6032221/pexels-photo-6032221.jpeg?_gl=1*f12xqs*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE2NzgkajYwJGwwJGgw",
           "message": "Yep! Box is huge 😂 Want me to bring it tomorrow?",
           "timestamp": "2025-06-30T16:03:29+03:00"
         },
@@ -113,7 +113,7 @@
         {
           "id": "chat-03-msg-004",
           "name": "Liat Cohen",
-          "avatar": "https://example.com/avatars/liat.png",
+          "avatar": "https://images.pexels.com/photos/6032221/pexels-photo-6032221.jpeg?_gl=1*f12xqs*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE2NzgkajYwJGwwJGgw",
           "message": "Cool, I’ll drop it at your desk.",
           "timestamp": "2025-06-30T16:04:46+03:00"
         }
@@ -122,12 +122,12 @@
     {
       "id": 4,
       "name": "Yossi Peretz",
-      "avatar": "https://example.com/avatars/yossi.png",
+      "avatar": "https://images.pexels.com/photos/30450838/pexels-photo-30450838.jpeg?_gl=1*1uz2z67*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE5NTAkajYwJGwwJGgw",
       "messages": [
         {
           "id": "chat-04-msg-001",
           "name": "Yossi Peretz",
-          "avatar": "https://example.com/avatars/yossi.png",
+          "avatar": "https://images.pexels.com/photos/30450838/pexels-photo-30450838.jpeg?_gl=1*1uz2z67*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE5NTAkajYwJGwwJGgw",
           "message": "Server’s down again… did you push something?",
           "timestamp": "2025-07-08T13:55:14+03:00"
         },
@@ -148,7 +148,7 @@
         {
           "id": "chat-04-msg-004",
           "name": "Yossi Peretz",
-          "avatar": "https://example.com/avatars/yossi.png",
+          "avatar": "https://images.pexels.com/photos/30450838/pexels-photo-30450838.jpeg?_gl=1*1uz2z67*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE5NTAkajYwJGwwJGgw",
           "message": "Got it. Ping me when it’s stable.",
           "timestamp": "2025-07-08T13:59:07+03:00"
         },
@@ -164,7 +164,7 @@
     {
       "id": 5,
       "name": "Maya Ron",
-      "avatar": "https://example.com/avatars/maya.png",
+      "avatar": "https://images.pexels.com/photos/9826082/pexels-photo-9826082.jpeg?_gl=1*1vy297l*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE4NTgkajYwJGwwJGgw",
       "messages": [
         {
           "id": "chat-05-msg-001",
@@ -176,7 +176,7 @@
         {
           "id": "chat-05-msg-002",
           "name": "Maya Ron",
-          "avatar": "https://example.com/avatars/maya.png",
+          "avatar": "https://images.pexels.com/photos/9826082/pexels-photo-9826082.jpeg?_gl=1*1vy297l*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE4NTgkajYwJGwwJGgw",
           "message": "Sure! What time should I come?",
           "timestamp": "2025-07-02T18:23:04+03:00"
         },
@@ -190,7 +190,7 @@
         {
           "id": "chat-05-msg-004",
           "name": "Maya Ron",
-          "avatar": "https://example.com/avatars/maya.png",
+          "avatar": "https://images.pexels.com/photos/9826082/pexels-photo-9826082.jpeg?_gl=1*1vy297l*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE4NTgkajYwJGwwJGgw",
           "message": "Perfect. See you then!",
           "timestamp": "2025-07-02T18:24:31+03:00"
         }
@@ -199,12 +199,12 @@
     {
       "id": 6,
       "name": "Karim Nasser",
-      "avatar": "https://example.com/avatars/karim.png",
+      "avatar": "https://images.pexels.com/photos/29652431/pexels-photo-29652431/free-photo-of-thoughtful-portrait-of-a-man-in-nature.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260",
       "messages": [
         {
           "id": "chat-06-msg-001",
           "name": "Karim Nasser",
-          "avatar": "https://example.com/avatars/karim.png",
+          "avatar": "https://images.pexels.com/photos/29652431/pexels-photo-29652431/free-photo-of-thoughtful-portrait-of-a-man-in-nature.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260",
           "message": "Yo, did you watch the finale yet?",
           "timestamp": "2025-07-19T22:14:03+03:00"
         },
@@ -218,7 +218,7 @@
         {
           "id": "chat-06-msg-003",
           "name": "Karim Nasser",
-          "avatar": "https://example.com/avatars/karim.png",
+          "avatar": "https://images.pexels.com/photos/29652431/pexels-photo-29652431/free-photo-of-thoughtful-portrait-of-a-man-in-nature.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260",
           "message": "Okay okay, message me when you’re done.",
           "timestamp": "2025-07-19T22:15:22+03:00"
         },
@@ -234,7 +234,7 @@
     {
       "id": 7,
       "name": "Yael Goren",
-      "avatar": "https://example.com/avatars/yael.png",
+      "avatar": "https://images.pexels.com/photos/6956856/pexels-photo-6956856.jpeg?_gl=1*er7hdv*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE5ODAkajMwJGwwJGgw",
       "messages": [
         {
           "id": "chat-07-msg-001",
@@ -246,7 +246,7 @@
         {
           "id": "chat-07-msg-002",
           "name": "Yael Goren",
-          "avatar": "https://example.com/avatars/yael.png",
+          "avatar": "https://images.pexels.com/photos/6956856/pexels-photo-6956856.jpeg?_gl=1*er7hdv*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE5ODAkajMwJGwwJGgw",
           "message": "Sure. Anything specific to update?",
           "timestamp": "2025-07-22T17:49:03+03:00"
         },
@@ -260,7 +260,7 @@
         {
           "id": "chat-07-msg-004",
           "name": "Yael Goren",
-          "avatar": "https://example.com/avatars/yael.png",
+          "avatar": "https://images.pexels.com/photos/6956856/pexels-photo-6956856.jpeg?_gl=1*er7hdv*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE5ODAkajMwJGwwJGgw",
           "message": "Got it. Good luck at the dentist!",
           "timestamp": "2025-07-22T17:50:12+03:00"
         }
@@ -269,12 +269,12 @@
     {
       "id": 8,
       "name": "Adam Blum",
-      "avatar": "https://example.com/avatars/adam.png",
+      "avatar": "https://images.pexels.com/photos/5858045/pexels-photo-5858045.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260",
       "messages": [
         {
           "id": "chat-08-msg-001",
           "name": "Adam Blum",
-          "avatar": "https://example.com/avatars/adam.png",
+          "avatar": "https://images.pexels.com/photos/5858045/pexels-photo-5858045.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260",
           "message": "You still selling that bike?",
           "timestamp": "2025-06-26T10:31:55+03:00"
         },
@@ -288,7 +288,7 @@
         {
           "id": "chat-08-msg-003",
           "name": "Adam Blum",
-          "avatar": "https://example.com/avatars/adam.png",
+          "avatar": "https://images.pexels.com/photos/5858045/pexels-photo-5858045.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260",
           "message": "Can I try it today evening?",
           "timestamp": "2025-06-26T10:33:09+03:00"
         },
@@ -302,7 +302,7 @@
         {
           "id": "chat-08-msg-005",
           "name": "Adam Blum",
-          "avatar": "https://example.com/avatars/adam.png",
+          "avatar": "https://images.pexels.com/photos/5858045/pexels-photo-5858045.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260",
           "message": "See you then!",
           "timestamp": "2025-06-26T10:34:12+03:00"
         }
@@ -311,7 +311,7 @@
     {
       "id": 9,
       "name": "Rina Katz",
-      "avatar": "https://example.com/avatars/rina.png",
+      "avatar": "https://images.pexels.com/photos/852793/pexels-photo-852793.jpeg?_gl=1*1ez30xd*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODIzNjEkajM2JGwwJGgw",
       "messages": [
         {
           "id": "chat-09-msg-001",
@@ -323,7 +323,7 @@
         {
           "id": "chat-09-msg-002",
           "name": "Rina Katz",
-          "avatar": "https://example.com/avatars/rina.png",
+          "avatar": "https://images.pexels.com/photos/852793/pexels-photo-852793.jpeg?_gl=1*1ez30xd*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODIzNjEkajM2JGwwJGgw",
           "message": "That’s early 😴 but yeah, pick-up 03:45?",
           "timestamp": "2025-07-01T20:56:28+03:00"
         },
@@ -337,7 +337,7 @@
         {
           "id": "chat-09-msg-004",
           "name": "Rina Katz",
-          "avatar": "https://example.com/avatars/rina.png",
+          "avatar": "https://images.pexels.com/photos/852793/pexels-photo-852793.jpeg?_gl=1*1ez30xd*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODIzNjEkajM2JGwwJGgw",
           "message": "Deal. Don’t oversleep!",
           "timestamp": "2025-07-01T20:57:44+03:00"
         }
@@ -346,12 +346,12 @@
     {
       "id": 10,
       "name": "Eitan Weiss",
-      "avatar": "https://example.com/avatars/eitan.png",
+      "avatar": "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?_gl=1*jxgpb7*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODIyOTgkajM2JGwwJGgw",
       "messages": [
         {
           "id": "chat-10-msg-001",
           "name": "Eitan Weiss",
-          "avatar": "https://example.com/avatars/eitan.png",
+          "avatar": "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?_gl=1*jxgpb7*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODIyOTgkajM2JGwwJGgw",
           "message": "Your turn in the code review chain.",
           "timestamp": "2025-07-20T11:14:55+03:00"
         },
@@ -365,7 +365,7 @@
         {
           "id": "chat-10-msg-003",
           "name": "Eitan Weiss",
-          "avatar": "https://example.com/avatars/eitan.png",
+          "avatar": "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?_gl=1*jxgpb7*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODIyOTgkajM2JGwwJGgw",
           "message": "Mainly the new auth middleware.",
           "timestamp": "2025-07-20T11:16:09+03:00"
         },
@@ -379,7 +379,7 @@
         {
           "id": "chat-10-msg-005",
           "name": "Eitan Weiss",
-          "avatar": "https://example.com/avatars/eitan.png",
+          "avatar": "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?_gl=1*jxgpb7*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODIyOTgkajM2JGwwJGgw",
           "message": "Thanks!",
           "timestamp": "2025-07-20T11:17:20+03:00"
         }
