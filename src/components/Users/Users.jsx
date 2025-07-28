@@ -1,8 +1,8 @@
 import "./Users.css";
 
-export default function Users({ name, lastMessage, date, avatar }) {
+export default function Users({ name, lastMessage, date, avatar, onClick }) {
   return (
-    <div className="user">
+    <div className="user" onClick={onClick}>
       <div className="icon-wrapper">
         <div className="icon">
           <img src={avatar} alt="User Icon" />

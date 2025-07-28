@@ -6,6 +6,7 @@ import users from "./data/users.json";
 import Footer from "./components/Footer/Footer";
 
 const usersArray = users.chats;
+let isActiveUser = true;
 
 function formatTimestamp(isoTs) {
   const ts = new Date(isoTs);
@@ -37,27 +38,32 @@ function formatTimestamp(isoTs) {
 
 
 function App() {
-  const [user, setUser] = useState([
-    { id: 1, name: "John Doe", lastMessage: "User last message", date: "21/7/25", avatar: "imgUrl"}
-  ])
+  const [activeUser, setUser] = useState(
+    { id: null, user: null, messages: null, date: null, avatar: null, isActive:false}
+  )
 
+  function setActiveUser(userId = null, userName = null, allMessages = null, imgUrl = null) {
+    setUser(user => ({ id: userId, user: userName, messages: allMessages, avatar: imgUrl, isActive: true }));
+    console.log(activeUser);
+  }
 
 
   return (
     <div className="App">
       <header>
-        <Header />
+      <Header isActive={activeUser.isActive}/> 
       </header>
       
       <div className="users-container">
         {usersArray.map((user) => ( 
-          console.log(user.messages[1]),
           <Users
             key={user.id}
             name={user.name}
             lastMessage={user.messages[user.messages.length - 1].message.slice(0, 15) + "..." || ""}
             date={formatTimestamp(user.messages[user.messages.length - 1].timestamp)}
             avatar={user.avatar}
+            onClick={() => setActiveUser(user.id, user.name, user.messages, user.avatar)}
+            isActive={user.isActive}
           />
         ))}
         
@@ -67,6 +73,7 @@ function App() {
       </footer>
     </div>
   );
+  
 }
 
 export default App;

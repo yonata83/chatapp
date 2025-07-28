@@ -7,16 +7,16 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    padding: 15px 15px 0 15px;
+    gap:10px;
 }
 
-
-
-.App-header h1{
+.app-header h1{
     color: #585858;
-    font-size: 16pt;
+    font-size: 18pt;
     text-align: left;
     margin: 0;
-    font-weight: 500;
+    font-weight: 700;
     
     
 }
@@ -42,4 +42,40 @@
 input::placeholder{
     color: #868585;
     font-size: 16px;
+}
+
+/*User chat session Header*/
+
+.user-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.user-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-actions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 30%;
+}
+
+button.action-button {
+    width: 30%;
+    height: 30%;
+    background: none;
+    border: none;
+}
+button.action-button > svg, button.action-button > img{
+    width: 100%;
+    height: 100%;
 }

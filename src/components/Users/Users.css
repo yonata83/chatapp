@@ -1,13 +1,13 @@
 .user{
     display: flex;
     flex-direction: row;
-    height: calc(100% / 10);
     border-bottom: var(--jordy-blue) 1px solid;
     background-color: var(--alice-blue);
     padding:15px;
     color: #585858;
-      flex: 1;
-     overflow: auto;
+    flex: 1;
+    overflow: hidden;
+    min-height: 40px;
 }
 .icon-wrapper{
     width: 20%;
