@@ -39,33 +39,50 @@ function formatTimestamp(isoTs) {
 
 function App() {
   const [activeUser, setUser] = useState(
-    { id: null, user: null, messages: null, date: null, avatar: null, isActive:false}
+    { id: null, user: null, messages: null, date: null, avatar: null, online: null, isActive:false}
   )
 
-  function setActiveUser(userId = null, userName = null, allMessages = null, imgUrl = null) {
-    setUser(user => ({ id: userId, user: userName, messages: allMessages, avatar: imgUrl, isActive: true }));
+  function setActiveUser(userId = null, userName = null, allMessages = null, imgUrl = null, online = null, isActive = false) {
+    setUser(user => ({ id: userId, user: userName, messages: allMessages, avatar: imgUrl, online: online, isActive: isActive }));
     console.log(activeUser);
   }
 
 
   return (
     <div className="App">
-      <header>
-      <Header isActive={activeUser.isActive}/> 
-      </header>
+
+      <Header 
+        isActive={activeUser.isActive}
+        isOnline={activeUser.online}
+        userName={activeUser.user}
+        avatarImg={activeUser.avatar}
+        backToChats={() => setActiveUser()}
+        /> 
+
       
       <div className="users-container">
-        {usersArray.map((user) => ( 
+        { activeUser.isActive ? (
+          <Users
+            name={activeUser.user}
+            lastMessage={activeUser.messages[activeUser.messages.length - 1].message.slice(0, 15) + "..." || ""}
+            date={formatTimestamp(activeUser.messages[activeUser.messages.length - 1].timestamp)}
+            avatar={activeUser.avatar}
+            onClick={() => setActiveUser(activeUser.id, activeUser.user, activeUser.messages, activeUser.avatar, activeUser.online, true)}
+            isActive={activeUser.isActive}
+            messages={activeUser.messages}
+          />
+        ) : (
+        usersArray.map((user) => ( 
           <Users
             key={user.id}
             name={user.name}
             lastMessage={user.messages[user.messages.length - 1].message.slice(0, 15) + "..." || ""}
             date={formatTimestamp(user.messages[user.messages.length - 1].timestamp)}
             avatar={user.avatar}
-            onClick={() => setActiveUser(user.id, user.name, user.messages, user.avatar)}
-            isActive={user.isActive}
+            onClick={() => setActiveUser(user.id, user.name, user.messages, user.avatar, user.online, true)}
+            isActive={activeUser.isActive}
           />
-        ))}
+        )))}
         
       </div>
       <footer className="footer">

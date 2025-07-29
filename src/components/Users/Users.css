@@ -81,3 +81,86 @@
     font-weight: 600;
     font-size: 12px;
 }
+
+/*MESSAGE SECTION*/
+.content-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.messages-containe{
+    height:90%
+}
+.input-container{
+    width: 100%;
+    height: 10%;;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.messages-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 ;
+}
+.messages-list li{
+    list-style: none;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;;
+}
+
+
+.messages-list .me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+    margin:0 5px;
+}
+.me div{
+    background-color: var(--periwinkle-2);
+    color: #585858;
+    border-radius: 25px 25px 0px 25px;
+    padding: 10px;
+    max-width: 80%;
+    margin-right:10px;
+}
+.messages-list .user-message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.user-message div{
+    background-color: var(--periwinkle-2);
+    color: #585858;
+    border-radius: 25px 25px 25px 0px;
+    padding: 10px;
+    max-width: 80%;
+}
+
+.message-content p{
+    margin: 5px;
+    padding: 0;
+}

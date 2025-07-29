@@ -4,13 +4,15 @@
       "id": 1,
       "name": "Noa Shalev",
       "avatar": "https://images.pexels.com/photos/16153368/pexels-photo-16153368.jpeg?_gl=1*1g1pqie*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzAkdDE3NTM0ODE1MzIkajYwJGwwJGgw",
+      "online": true,
       "messages": [
         {
           "id": "chat-01-msg-001",
           "name": "me",
           "avatar": "https://example.com/avatars/me.png",
           "message": "Morning! Did you upload the photos to the shared drive?",
-          "timestamp": "2025-07-15T08:12:05+03:00"
+          "timestamp": "2025-07-15T08:12:05+03:00",
+          "status": "online"
         },
         {
           "id": "chat-01-msg-002",
@@ -46,6 +48,7 @@
       "id": 2,
       "name": "Omar Haddad",
       "avatar": "https://images.pexels.com/photos/3015884/pexels-photo-3015884.jpeg?_gl=1*y1vent*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODI0MzgkajIyJGwwJGgw",
+      "online": false,
       "messages": [
         {
           "id": "chat-02-msg-001",
@@ -88,6 +91,7 @@
       "id": 3,
       "name": "Liat Cohen",
       "avatar": "https://images.pexels.com/photos/6032221/pexels-photo-6032221.jpeg?_gl=1*f12xqs*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE2NzgkajYwJGwwJGgw",
+      "online": true,
       "messages": [
         {
           "id": "chat-03-msg-001",
@@ -123,6 +127,7 @@
       "id": 4,
       "name": "Yossi Peretz",
       "avatar": "https://images.pexels.com/photos/30450838/pexels-photo-30450838.jpeg?_gl=1*1uz2z67*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE5NTAkajYwJGwwJGgw",
+      "online": true,
       "messages": [
         {
           "id": "chat-04-msg-001",
@@ -165,6 +170,7 @@
       "id": 5,
       "name": "Maya Ron",
       "avatar": "https://images.pexels.com/photos/9826082/pexels-photo-9826082.jpeg?_gl=1*1vy297l*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE4NTgkajYwJGwwJGgw",
+      "online": false,
       "messages": [
         {
           "id": "chat-05-msg-001",
@@ -199,6 +205,7 @@
     {
       "id": 6,
       "name": "Karim Nasser",
+      "online": true,
       "avatar": "https://images.pexels.com/photos/29652431/pexels-photo-29652431/free-photo-of-thoughtful-portrait-of-a-man-in-nature.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260",
       "messages": [
         {
@@ -235,6 +242,7 @@
       "id": 7,
       "name": "Yael Goren",
       "avatar": "https://images.pexels.com/photos/6956856/pexels-photo-6956856.jpeg?_gl=1*er7hdv*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODE5ODAkajMwJGwwJGgw",
+      "online": false,
       "messages": [
         {
           "id": "chat-07-msg-001",
@@ -312,6 +320,7 @@
       "id": 9,
       "name": "Rina Katz",
       "avatar": "https://images.pexels.com/photos/852793/pexels-photo-852793.jpeg?_gl=1*1ez30xd*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODIzNjEkajM2JGwwJGgw",
+      "online": false,
       "messages": [
         {
           "id": "chat-09-msg-001",
@@ -347,6 +356,7 @@
       "id": 10,
       "name": "Eitan Weiss",
       "avatar": "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?_gl=1*jxgpb7*_ga*NDg0NzI4Mzk3LjE3NTM0ODE1MzM.*_ga_8JE65Q40S6*czE3NTM0ODE1MzIkbzEkZzEkdDE3NTM0ODIyOTgkajM2JGwwJGgw",
+      "online": false,
       "messages": [
         {
           "id": "chat-10-msg-001",
