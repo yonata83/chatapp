@@ -1,24 +1,38 @@
-
+import cameraImg from "../../../assets/camera.svg";
+import sendImg from "../../../assets/send.svg";
+import attachImg from "../../../assets/paper-clip.svg";
 import "./Input.css";
+import { useState } from "react";
 
-export default function Input({ value, onChange, onSubmit }) {
+export default function Input({ onSubmit }) {
+    const [text, setText] = useState('');
   const handleKeyDown = (event) => {
-    if (event.key === 'Enter') {
+    
       event.preventDefault();
-      onSubmit(value);
-    }
+      onSubmit(text);
+
   };
 
   return (
     <div className="input-container">
+        <button className="img-upload">
+          {cameraImg && <img src={cameraImg} alt="Upload" />}
+        </button>
       <input
+      id="chat-input"
         type="text"
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        onKeyDown={handleKeyDown}
+        value={text}
+        onChange={(e) => setText(e.target.value)}
         placeholder="Type a message..."
       />
-      <button onClick={() => onSubmit(value)}>Send</button>
+      <button className="attachment"> 
+        {attachImg && <img src={attachImg} alt="Upload" />}
+          </button>
+      <button onClick={() => onSubmit(text)}>
+        {sendImg && <img src={sendImg} alt="Upload" />}
+
+      </button>
+
     </div>
   );
 }

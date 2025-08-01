@@ -2,6 +2,7 @@ import "./Header.css";
 import videoIcon from "../../assets/video-camera.svg";
 import moreIcon from "../../assets/more.svg";
 import phoneIcon from "../../assets/phone.svg";
+import backImg from "../../assets/left-chevron.svg";
 
 export default function Header({ isActive, userName, isOnline, avatarImg, backToChats}) {
   const isInvalid = [false, null, undefined].includes(isActive);
@@ -9,7 +10,7 @@ export default function Header({ isActive, userName, isOnline, avatarImg, backTo
 
       isInvalid ? (
         <header style={{ height: "15%" }}>
-          <div className="app-header">
+          <div className="app-header main-header">
             <h1>Chats</h1>
             <div className="search">
               <input type="search" placeholder="Search chats..." />
@@ -18,10 +19,10 @@ export default function Header({ isActive, userName, isOnline, avatarImg, backTo
         </header>
       ) : (
         <header style={{ height: "10%" }}>
-          <div className="user-header">
+          <div className="user-header chat-header">
             <div className="back" onClick={backToChats}>
               <div>
-                <img src="src/assets/left-chevron.svg" />
+                <img src={backImg} />
               </div>
             </div>
             <div className="user-info">
