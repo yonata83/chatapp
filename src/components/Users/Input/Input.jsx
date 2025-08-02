@@ -1,4 +1,4 @@
-import Button from "../../Button/Button.jsx";
+import Button from "../Button/Button.jsx";
 import cameraImg from "../../../assets/camera.svg";
 import sendImg from "../../../assets/send.svg";
 import attachImg from "../../../assets/paper-clip.svg";
@@ -26,7 +26,7 @@ export default function Input({ onSubmit }) {
         placeholder="Type a message..."
       />
       <Button icon={attachImg} altText="Upload" className="attachment" />
-      <Button icon={sendImg} altText="Submit"/>
+      <Button icon={sendImg} altText="Submit" onClick={() => onSubmit(text)}/>
 
 
     </div>
