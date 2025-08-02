@@ -1,10 +1,9 @@
 .user{
     display: flex;
     flex-direction: row;
-    border-bottom: var(--jordy-blue) 1px solid;
-    background-color: var(--alice-blue);
+    border-bottom: var(--separator) 1px solid;
     padding:15px;
-    color: #585858;
+    color: var(--text-color);
     flex: 1;
     overflow: hidden;
     min-height: 40px;
@@ -44,14 +43,14 @@
     margin: 3px;
     padding: 0;
     font-size: 16px;
-    color: #585858;
+    color: var(--text-color);
 }
 .desription .name{
     font-weight: 600;
 }
 .desription .last-message{
-    color: #868585;
-    font-size: 14px;
+    color: var(--grayed-text);
+    font-size: 12px;
 }
 .info{
     width:20%;
@@ -65,6 +64,7 @@
     margin: 5px;
     padding: 0;
     font-size: 12px;
+    color:var(--grayed-text)
 }
 
 .unread .circle{
@@ -141,8 +141,8 @@
 
 }
 .me div{
-    background-color: var(--periwinkle-2);
-    color: #585858;
+    background-color: var(--owner-message);
+    color: var(--text-color);
     border-radius: 25px 25px 0px 25px;
 
     max-width: 80%;
@@ -159,8 +159,8 @@
 }
 
 .user-message div{
-    background-color: var(--periwinkle-2);
-    color: #585858;
+    background-color: var(--user-message);
+    color: var(--text-color);
     border-radius: 25px 25px 25px 0px;
 
     max-width: 80%;

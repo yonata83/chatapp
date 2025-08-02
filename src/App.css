@@ -1,12 +1,15 @@
 
 :root {
---alice-blue: #edf2fbff;
---lavender-web: #e2eafcff;
---lavender-web-2: #d7e3fcff;
---periwinkle: #ccdbfdff;
---periwinkle-2: #c1d3feff;
---periwinkle-3: #b6ccfeff;
---jordy-blue: #abc4ffff;
+--background:#fbfefb;
+--text-color:#04080f;
+--buttons: #b80c09ff;
+--user-message: #f77f00;
+--owner-message:#ccc5b9;
+--input-main:#d9d9d9;
+--separator:#bbd1ea;
+--non-photo-blue: #dae3e5;
+--grayed-text: #93a8ac;
+--border-title: #403d39;
 }
 *{
     font-family: "Inter", "Noto Sans Hebrew", sans-serif;
@@ -25,7 +28,7 @@ body{
     height: 100vh;
     max-width:412px;
     max-height: 915px;
-    background-color: var(--cornsilk);
+    background-color: var(--background);
 }
 header{
     width: 100%;

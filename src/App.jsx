@@ -35,7 +35,7 @@ function formatTimestamp(isoTs) {
 }
 
 function useLocalStorageData(key, defaultObj) {
-  const [state, setState] = useState(() => { debugger;
+  const [state, setState] = useState(() => {
     let stored = localStorage.getItem(key);
     return JSON.parse(stored) || defaultObj;
   });
@@ -83,7 +83,7 @@ function App() {
       />
 
       {activeUser.isActive ? (
-        <div className="users-container" style={{ height: "90%" }}>
+        <div className="users-container" style={{ height: "90%" , backgroundColor: "var(--honeydew)"}}>
           <Users
             userId={activeUser.id}
             name={activeUser.user}

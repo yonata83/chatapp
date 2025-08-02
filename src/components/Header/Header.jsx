@@ -1,4 +1,5 @@
 import "./Header.css";
+import Button from "../Button/Button.jsx";
 import videoIcon from "../../assets/video-camera.svg";
 import moreIcon from "../../assets/more.svg";
 import phoneIcon from "../../assets/phone.svg";
@@ -37,15 +38,9 @@ export default function Header({ isActive, userName, isOnline, avatarImg, backTo
               </div>
             </div>
             <div className="user-actions">
-              <button className="action-button phone">
-                <img src={phoneIcon} alt="Phone Call" />
-              </button>
-              <button className="action-button video">
-                <img src={videoIcon} alt="Video Call" />
-              </button>
-              <button className="action-button more">
-                <img src={moreIcon} alt="More options" />
-              </button>
+              <Button icon={phoneIcon} altText="Phone call" className="header-icon" />
+              <Button icon={videoIcon} altText="Video call" className="header-icon" />
+              <Button icon={moreIcon} altText="More options" className="header-icon" />
             </div>
           </div>
         </header>
