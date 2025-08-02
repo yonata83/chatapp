@@ -1,4 +1,4 @@
-import Button from "../Button/Button.jsx";
+import Button from "../../Button/Button.jsx";
 import cameraImg from "../../../assets/camera.svg";
 import sendImg from "../../../assets/send.svg";
 import attachImg from "../../../assets/paper-clip.svg";
